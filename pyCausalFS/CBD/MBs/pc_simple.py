@@ -8,7 +8,6 @@ import numpy as np
 from pyCausalFS.CBD.MBs.common.condition_independence_test import cond_indep_test
 from pyCausalFS.CBD.MBs.common.subsets import subsets
 
-
 def pc_simple(data, target, alaph, isdiscrete):
     number, kVar = np.shape(data)
     ciTest = 0
