@@ -5,10 +5,10 @@
  @File    : independence_condition_test.py
  """
 
-from CBD.MBs.common.chi_square_test import chi_square_test
-from CBD.MBs.common.fisher_z_test import cond_indep_fisher_z
-from CBD.MBs.common.chi_square_test import chi_square
-from CBD.MBs.common.g2test import g2_test_dis
+from pyCausalFS.CBD.MBs.common.chi_square_test import chi_square_test
+from pyCausalFS.CBD.MBs.common.fisher_z_test import cond_indep_fisher_z
+from pyCausalFS.CBD.MBs.common.chi_square_test import chi_square
+from pyCausalFS.CBD.MBs.common.g2test import g2_test_dis
 
 
 def cond_indep_test(data, target, var, cond_set=[], is_discrete=True, alpha=0.01):

@@ -5,8 +5,8 @@ date: 2019/7/9 15:00
 desc:
 """
 import numpy as np
-from CBD.MBs.common.condition_independence_test import cond_indep_test
-from CBD.MBs.common.subsets import subsets
+from pyCausalFS.CBD.MBs.common.condition_independence_test import cond_indep_test
+from pyCausalFS.CBD.MBs.common.subsets import subsets
 
 
 def pc_simple(data, target, alaph, isdiscrete):
